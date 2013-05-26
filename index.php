@@ -12,6 +12,8 @@ $imageurl = "http://localhost/hoowla/frontpage/images/hoowlabanner.png";
 </div>
 <div class="greyblock">
 </div>
+<div class="freetrial">
+</div>
 <div class="whiteblock">
 <img style="float:right; border: 1px solid #939598;margin-top: 20px;margin-right: 20px;" src="images/dashExample.png" alt="hoowla dashboard">
 </div>
