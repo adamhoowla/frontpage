@@ -82,7 +82,9 @@ padding:0;
 .freetrial {
 	background-image: url('images/freetrial.png');
 	height: 323px;
-	width: 1205px;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .whiteblock {
 	height: 304px;
