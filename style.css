@@ -74,10 +74,15 @@ padding:0;
 	height: 204px;
 	width: 100%;
 }
+.freetrialOutter {
+	background-image: url('images/freetrialbg.png');
+	height: 323px;
+	width: 100%;
+}
 .freetrial {
 	background-image: url('images/freetrial.png');
 	height: 323px;
-	width: 100%;
+	width: 1205px;
 }
 .whiteblock {
 	height: 304px;
