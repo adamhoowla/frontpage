@@ -1,5 +1,14 @@
 body {
 	margin: 0px;
+	font-family: arial;
+}
+
+h3 {
+	color: #7b9d3e;
+}
+
+p {
+	color: #7b7b7b;
 }
 
 #header {
@@ -85,9 +94,27 @@ padding:0;
 	width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.freetrial h2 {
+	float: left;
+	margin-left: 45px;
+	margin-top: 150px;
+	font-size: 26px;
+	color: #58585a;
+}
+.freetrial .findoutmore {
+	float: right;
+	margin-top: 140px;
+	margin-right: 240px;	
+}
+
+#freetrailcirc {
+	margin-top: 34px;
+	margin-left: 120px;
+	float: left;
 }
 .whiteblock {
-	height: 304px;
 	width: 100%;
 }
 
@@ -100,3 +127,9 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.row {
+	float:left;
+	width: 240px;
+	margin-right: 5px;
+	text-align: center;
+}

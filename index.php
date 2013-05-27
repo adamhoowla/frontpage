@@ -10,14 +10,35 @@ $imageurl = "http://localhost/hoowla/frontpage/images/hoowlabanner.png";
 //echo "<img style=\"float:left;\" src=\"timthumb.php?src=" .$imageurl ."&w=1349&h=460&a=t\" alt=\"\">";
 ?>
 </div>
-<div class="greyblock">
+<div class="whiteblock clearfix">
+<div style="margin-left: auto; margin-right: auto; max-width: 980px;">
+<div class="row"><img src="images/phone.png" alt="Reduce phone calls"/>
+<h3>Reduce Phone Calls</h3>
+<p>Reduce the hassle with less phone calls and more online bidding.</p>
+</div>
+<div class="row">
+<img src="images/speachbubble.png" alt="Improved communication"/>
+<h3>Improved Communication</h3>
+<p>Communication is more fluid and accessible with data backed up online.</p>
+</div>
+<div class="row">
+<img src="images/arrowbox.png" alt="No installation required"/>
+<h3>No Installation Required</h3>
+<p>All you need is an internet connection to be able to access your account online.</p>
+</div>
+<div class="row">
+<img src="images/computericon.png" alt="No setup fee"/>
+<h3>No Setup Fee</h3>
+<p>All you need is an internet connection to be able to access your account online.</p>
+</div>
+</div>
 </div>
 <div class="freetrialOutter">
 <div class="freetrial">
+<img id="freetrailcirc" src="images/freetrailcircle.png" alt="free trail of the hoowla platform"><h2>Try Hoowla free today</h2><img class="findoutmore" src="images/findoutmore.png" alt="find out more"/>
 </div>
 </div>
 <div class="whiteblock">
-<img style="float:right; border: 1px solid #939598;margin-top: 20px;margin-right: 20px;" src="images/dashExample.png" alt="hoowla dashboard">
 </div>
 </body>
 
