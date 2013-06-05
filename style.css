@@ -160,6 +160,13 @@ margin-right: auto;
 	text-align: center;
 	margin-bottom: 40px;
 }
+.rowleft {
+	float:left;
+	width: 240px;
+	margin-right: 5px;
+	text-align: left;
+	margin-bottom: 40px;
+}
 
 #footer {
 	height: 153px;

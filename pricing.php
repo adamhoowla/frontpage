@@ -13,17 +13,17 @@
 </div>
 <div class="whiteblock clearfix">
 <div style="margin-left: auto; margin-right: auto; max-width: 980px;">
-<div class="row">
-<h3>ALL OUR PLANS INCLUDE</h3>
+<div class="rowleft">
+<h3 style="font-size: 30px;"><span style="font-size: 20px;">ALL OUR PLANS</span> INCLUDE</h3>
 </div>
-<div class="row">
+<div class="rowleft">
 <ul>
 <li>Unlimited customer support</li>
 <li>No setup fee</li>
 <li>Access anywhere</li>
 </ul>
 </div>
-<div class="row">
+<div class="rowleft">
 <ul>
 <li>Cancel anytime online</li>
 <li>No contract</li>
