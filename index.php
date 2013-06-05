@@ -9,6 +9,7 @@
 $imageurl = "http://localhost/hoowla/frontpage/images/hoowlabanner.png";
 //echo "<img style=\"float:left;\" src=\"timthumb.php?src=" .$imageurl ."&w=1349&h=460&a=t\" alt=\"\">";
 ?>
+<p>An online conveyancing solution for solicitors, estate agents, buyers and sellers. Hoowla reduces phone calls, handles e-signatures, automatically backs up all data in the system and keeps every party in the conveyancing process updated in real time.</p>
 </div>
 <div class="whiteblock clearfix">
 <div style="margin-left: auto; margin-right: auto; max-width: 980px;">
@@ -39,6 +40,14 @@ $imageurl = "http://localhost/hoowla/frontpage/images/hoowlabanner.png";
 </div>
 </div>
 <div class="whiteblock">
+</div>
+<div id="footer">
+<div id="contactus">
+<h4>Contact Us</h4>
+<p>01792 515667</p>
+<p><a href="#">hello@hoowla.com</a></p>
+</div>
+<img id="webdesignlogo" src="images/clockworkbearlogo.png" alt="web design by Clockwork Bear">
 </div>
 </body>
 
