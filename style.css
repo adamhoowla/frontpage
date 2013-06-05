@@ -179,3 +179,11 @@ margin-right: auto;
 	margin-top: 50px;
 	margin-right: 50px;
 }
+
+ul {
+	color: #7b7b7b;
+}
+
+.pricelist {
+	list-style-image: url('images/bullet.png');
+}

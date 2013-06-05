@@ -14,10 +14,10 @@
 <div class="whiteblock clearfix">
 <div style="margin-left: auto; margin-right: auto; max-width: 980px;">
 <div class="rowleft">
-<h3 style="font-size: 30px;"><span style="font-size: 20px;">ALL OUR PLANS</span> INCLUDE</h3>
+<h3 style="font-size: 45px;"><span style="font-size: 30px;">ALL OUR PLANS</span> INCLUDE</h3>
 </div>
 <div class="rowleft">
-<ul>
+<ul class="pricelist">
 <li>Unlimited customer support</li>
 <li>No setup fee</li>
 <li>Access anywhere</li>
