@@ -143,6 +143,12 @@ padding:0;
 .whiteblock {
 	width: 100%;
 }
+.greenblock {
+	height: 320px;
+	width: 100%;
+	background-image: url('images/greenbg.png');
+	font-family: 'DroidSansRegular', arial;
+}
 
 #frontMain {
 width: 100%;
@@ -162,7 +168,7 @@ margin-right: auto;
 }
 .rowleft {
 	float:left;
-	width: 240px;
+	width: 378px;
 	margin-right: 5px;
 	text-align: left;
 	margin-bottom: 40px;
@@ -186,12 +192,75 @@ ul {
 
 .pricelist {
 	list-style-image: url('images/bullet.png');
-	padding-top: 50px;
+	padding-top: 25px;
 }
 .pricelist li{
 	font-size: 20px;
-	width: 400px;
 	padding-left: 16px;
 	padding-bottom: 20px;
 	width: 378px;
+}
+
+#offerprice {
+	width: 239px;
+	height: 261px;
+	background-color: #93bf38;
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	text-align: center;
+}
+#offerprice p{
+	color: #fff;
+}
+#offerprice h4{
+	color: #fff;
+	font-size: 50px;
+	margin: 0px;
+	padding-top: 15px;
+	font-family: 'DroidSansRegular', arial;
+}
+
+.pricebox {
+	width: 239px;
+	height: 261px;
+	float: left;
+	display: inline;
+	margin-right: 15px;
+}
+.pricebox {
+	font-size: 50px;
+	text-align: center;
+	background-color: #fff;
+}
+.pricebox p{
+	background-color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.priceheading {
+	background-color: #93bf38;
+	height: 32px;
+	font-size: 20px;
+	color: #fff;
+	width: 100%;
+	padding-top: 20px;
+	margin-top: 0px;
+	font-family: 'DroidSansRegular', arial;
+}
+
+#contactus {
+	font-family: 'DroidSansRegular', arial;
+	color: #fff;
+	width: 500px;
+	float: left;
+	margin-left: 40px;
+	font-size: 12px;
+}
+#contactus a {
+	color: #fff;
+}
+#contactus p {
+	color: #fff;
 }

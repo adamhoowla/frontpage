@@ -41,14 +41,8 @@ $imageurl = "http://localhost/hoowla/frontpage/images/hoowlabanner.png";
 </div>
 <div class="whiteblock">
 </div>
-<div id="footer">
-<div id="contactus">
-<h4>Contact Us</h4>
-<p>01792 515667</p>
-<p><a href="#">hello@hoowla.com</a></p>
-</div>
-<img id="webdesignlogo" src="images/clockworkbearlogo.png" alt="web design by Clockwork Bear">
-</div>
+<?php include('footer.php'); ?>
+
 </body>
 
 <script type="text/javascript" src="jhoowla.js"></script>
