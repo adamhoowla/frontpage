@@ -10,5 +10,6 @@ SA1 1NW
 <p style="margin: 0px;">01792 515667</p>
 <p><a href="#">hello@hoowla.com</a></p>
 </div>
+
 <img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear">
 </div>
