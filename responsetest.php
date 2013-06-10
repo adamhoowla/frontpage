@@ -5,8 +5,7 @@
 <?php include('header.php'); ?>
 <section id="main">
 <div class="whiteblock clearfix">
-<div style="width:80%;margin-left:10%;margin-right:10%;text-align: center;">
-<div class="row"><img src="images/phone.png" alt="Reduce phone calls"/>
+<div class="row" style="margin-left: 49px;"><img src="images/phone.png" alt="Reduce phone calls"/>
 <h3>Reduce Phone Calls</h3>
 <p>Reduce the hassle with less phone calls and more online bidding.</p>
 </div>
@@ -26,8 +25,6 @@
 <p>All you need is an internet connection to be able to access your account online.</p>
 </div>
 </div>
-</div>
-<?php include('footer.php');?>
 </section>
 </div>
 <script type="text/javascript" src="jhoowla.js"></script>

@@ -59,6 +59,7 @@ padding:0;
 	font-size: 14px;
 	font-weight: bold;
 	color: #939598;
+	padding-left: 0px;
 }
 #headerMenu a{
 	text-decoration: none;
@@ -88,6 +89,7 @@ padding:0;
 #logo {
 	margin-top: 35px;
 	margin-bottom: 40px;
+	margin-left: 10%;
 	float:left;
 }
 
@@ -160,14 +162,14 @@ margin-right: auto;
 }
 
 .row {
-	float:left;
+	display:inline-block;
 	width: 240px;
 	margin-right: 5px;
 	text-align: center;
 	margin-bottom: 40px;
 }
 .rowleft {
-	float:left;
+	display:inline-block;
 	width: 378px;
 	margin-right: 5px;
 	text-align: left;
@@ -175,9 +177,9 @@ margin-right: auto;
 }
 
 #footer {
-	height: 153px;
+	height: 156px;
 	width: 100%;
-	background-image: url('images/footerbg.png');
+	background-image: url('images/footbg.png');
 }
 
 #webdesignlogo {
@@ -205,8 +207,7 @@ ul {
 	width: 239px;
 	height: 261px;
 	background-color: #93bf38;
-	float: left;
-	display: inline;
+	display: inline-block;
 	margin-right: 15px;
 	text-align: center;
 }
@@ -224,12 +225,12 @@ ul {
 .pricebox {
 	width: 239px;
 	height: 261px;
-	float: left;
-	display: inline;
+	display: inline-block;
 	margin-right: 15px;
 }
 .pricebox {
 	font-size: 50px;
+	vertical-align: top;
 	text-align: center;
 	background-color: #fff;
 }
@@ -263,4 +264,18 @@ ul {
 }
 #contactus p {
 	color: #fff;
+}
+#banner {
+	text-align: center;
+}
+#banner p{
+	color: #fff;
+}
+#banner h1 {
+	color: #fff;
+	text-align:center;
+	width: 100%;
+	text-indent: 0px;
+	margin-top: 80px;
+	margin-bottom:0px;
 }
