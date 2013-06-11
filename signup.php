@@ -5,6 +5,12 @@
 <?php include('htmlheader.php');?>
 <body>
 <?php
+
+if (isset($_POST['amount'])){
+	$amount = $_POST['amount'];
+}else{
+	$amount = "45.00";
+}
 include_once 'lib/GoCardless.php';
 
 // Use the sandbox environment for testing
@@ -24,7 +30,7 @@ GoCardless::set_account_details($account_details);
 
 // The parameters for the payment
 $subscription_details = array(
-  'amount'           => '45.00',
+  'amount'           => $amount,
   'interval_length'  => 1,
   'interval_unit'    => 'month',
   'start_at'    => '2013-08-31',
@@ -37,7 +43,13 @@ $subscription_url = GoCardless::new_subscription_url($subscription_details);
 <div id="wrapper">
 <?php 
 $bannerimgurl = "images/bannerbg.png";
-$bannercontent = "<h1>Sign up now</h1><p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Register to pay securely via GoCardless</a></p><p>No payment will be taken until August the 31st and we offer a 100% money back guarantee for the first 6 months.</p>";
+$bannercontent = "<h1>Sign up now</h1><p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Register to pay securely via GoCardless</a></p><p>No payment will be taken until August the 31st and we offer a 100% money back guarantee for the first 6 months.</p>
+<form name=\"input\" action=\"signup.php\" method=\"post\">
+number of users: <input type=\"text\" name=\"amount\">
+<input type=\"submit\" value=\"Submit\">
+</form>
+";
+
 include('header.php'); ?>
 <section id="main">
 <div class="whiteblock clearfix">
