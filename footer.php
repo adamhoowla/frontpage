@@ -11,5 +11,25 @@ SA1 1NW
 <p><a href="#">hello@hoowla.com</a></p>
 </div>
 
-<img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear">
+<a href="http://www.clockworkbear.com" name="web design swansea"><img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear"></a>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+//<![CDATA[
+var sc_project=9018282; 
+var sc_invisible=1; 
+var sc_security="715410ac"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter_xhtml.js'></"+"script>");
+//]]>
+</script>
+<noscript><div class="statcounter"><a title="free hit
+counter" href="http://statcounter.com/"
+class="statcounter"><img class="statcounter"
+src="http://c.statcounter.com/9018282/0/715410ac/1/"
+alt="free hit counter" /></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
 </div>
