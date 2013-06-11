@@ -7,7 +7,7 @@
 <?php
 
 if (isset($_POST['amount'])){
-	$amount = $_POST['amount'];
+	$amount = 45 * $_POST['amount'];
 }else{
 	$amount = "45.00";
 }
