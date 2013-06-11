@@ -37,7 +37,7 @@ $subscription_details = array(
   'interval_length'  => 1,
   'interval_unit'    => 'month',
   'start_at'    => '2013-08-31',
-  'expires_at'    => '2013-02-28'
+  'expires_at'    => '2014-02-28'
 );
 
 // Generate the url
