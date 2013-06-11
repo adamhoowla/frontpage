@@ -27,6 +27,49 @@
 </div>
 </div>
 </div>
+<div id="featureblock">
+<div class="whiteblock clearfix">
+<div style="width:80%;margin-left:10%;margin-right:10%;text-align: center;">
+<img src="images/socOverview1.jpg" alt="Esate Agent view" style="float: left;">
+<div style="float:right;text-align:left;width:480px;">
+<h3>Partner overview of all staff &amp; conveyancing cases</h3>
+<p>Hoowla gives you a easy to understand snap shot view of your businesses. Data about your firm is displayed to allow you to understand what is and isn't working</p>
+<p>No longer do you have to wait for monthly reviews to identify oppetunites for better use of your resources.</p>
+<p>Complete user control allows you to make sure the right people see the right data.</p>
+<p>Accessed from the cloud the data can be viewed on any mobile, laptop or desktop. Data is automatically backed up at no extra cost or hassle to yourself or your business.</p>
+</div>
+</div>
+</div>
+<div class="whiteblock clearfix">
+<div style="width:80%;margin-left:10%;margin-right:10%;text-align: center;">
+<div style="float:left;text-align:left;width: 480px;">
+<h3>See how each solicitor is performing for the firm in an instant</h3>
+<p>With multiple solicitors working in a number of branches it can be hard to keep on top of who is performing.</p>
+<p>Hoolwa allows you to monitor statistics per solicitor in your firm and give clients and estate agents to leave feedback for you to read</p>
+</div>
+<img src="images/socOverview2.jpg" alt="Esate Agent view" style="float: right;">
+</div>
+</div>
+<div class="whiteblock clearfix">
+<div style="width:80%;margin-left:10%;margin-right:10%;text-align: center;">
+<img src="images/hoowlaEstateAgentView.jpg" alt="Esate Agent view" style="float: left;">
+<div style="float:right;text-align:left;width:480px;">
+<h3>Break down of offers and cases for Estate Agents</h3>
+<p>Estate agents can login to Hoowla too and manage their clients offers. Directly liking it to the clients solicitor.</p>
+<p>You can now offer your clients a real time view of the sale process. Reducing the number of chase up calls you have to handle</p>
+</div>
+</div>
+</div>
+<div class="whiteblock clearfix">
+<div style="width:80%;margin-left:10%;margin-right:10%;text-align: center;">
+<img src="images/E-SignatureExample.jpg" alt="E-signature example" style="float: right;">
+<div style="float:left;text-align:left;width:480px;">
+<h3>Reduce paper work with E-signatures</h3>
+<p>Hoowla aims to reduce paper work were possible and bring the conveyancing process online</p>
+</div>
+</div>
+</div>
+</div>
 <?php include('footer.php');?>
 </section>
 </div>

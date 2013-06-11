@@ -279,3 +279,20 @@ ul {
 	margin-top: 80px;
 	margin-bottom:0px;
 }
+
+#featureblock h3{
+	font-family: 'DroidSansBold';
+	margin-bottom: 30px;
+	color: #7b7b7b;
+	width: 480px;
+	text-align: left;
+}
+#featureblock img{
+	margin-bottom: 40px;
+}
+#featureblock p{
+	font-family: 'DroidSansRegular', arial;
+	font-size: 14px;
+	width: 470px;
+	margin-left: 10px;
+}
