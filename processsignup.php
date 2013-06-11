@@ -1,6 +1,6 @@
 <?php
 // Include the library
-include_once 'gocardlessphp/lib/GoCardless.php';
+include_once 'lib/GoCardless.php';
 
 // Use the sandbox environment for testing
 GoCardless::$environment = 'sandbox';
