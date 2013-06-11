@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-<title> Demo | Responsive Web</title>
+<title>Hoowla | cloud based conveyancing software</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="main.css" type="text/css" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css" >
