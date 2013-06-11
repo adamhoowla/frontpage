@@ -11,7 +11,7 @@ SA1 1NW
 <p><a href="#">hello@hoowla.com</a></p>
 </div>
 
-<a href="http://www.clockworkbear.com" name="web design swansea" style="border: 0px;"><img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear"></a>
+<a href="http://www.clockworkbear.com" name="web design swansea" style="border: 0;"><img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear"></a>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 //<![CDATA[
