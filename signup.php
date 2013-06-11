@@ -37,7 +37,7 @@ $subscription_url = GoCardless::new_subscription_url($subscription_details);
 <div id="wrapper">
 <?php 
 $bannerimgurl = "images/bannerbg.png";
-$bannercontent = "<h1>Sign up now</h1><p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#58585a;text-decoration:none;\">Register to pay securly via GoCardless</a></p><p>No payment will be taken until August the 31st and we offer a 100% money back guarantee for the first 6 months.</p>";
+$bannercontent = "<h1>Sign up now</h1><p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Register to pay securely via GoCardless</a></p><p>No payment will be taken until August the 31st and we offer a 100% money back guarantee for the first 6 months.</p>";
 include('header.php'); ?>
 <section id="main">
 <div class="whiteblock clearfix">
