@@ -34,8 +34,10 @@ GoCardless::set_account_details($account_details);
 // The parameters for the payment
 $subscription_details = array(
   'amount'           => '45.00',
-  'interval_length'  => 6,
+  'interval_length'  => 1,
   'interval_unit'    => 'month'
+  'start_at'    => '2013-08-31'
+  'expires_at'    => '2013-02-28'
 );
 
 // Generate the url
