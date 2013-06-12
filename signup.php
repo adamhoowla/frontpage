@@ -48,7 +48,7 @@ if (isset($_POST['amount'])){
 	$bannercontent .= "<p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Pay securely via GoCardless</a></p>";
 }else{
 $bannercontent .= "<form name=\"input\" action=\"signup.php\" method=\"post\">
-<p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\">Enter the number of users you require: <input type=\"text\" name=\"amount\">
+<p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\">Number of users you require:<br><input type=\"text\" name=\"amount\"><br>
 <input type=\"image\" src=\"images/calculatecost.png\" alt=\"Calculate cost\" />
 </form>
 ";
