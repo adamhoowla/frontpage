@@ -45,7 +45,7 @@ $subscription_url = GoCardless::new_subscription_url($subscription_details);
 $bannerimgurl = "images/bannerbg.png";
 $bannercontent = "<h1>Sign up now</h1>";
 if (isset($_POST['amount'])){
-	$bannercontent .= "<p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Pay securely via GoCardless</a></p>";
+	$bannercontent .= "<p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\"><a href=\"".$subscription_url."\" style=\"color:#7b9d3e;text-decoration:none;\">Pay &pound;".$amount." securely via GoCardless</a></p>";
 }else{
 $bannercontent .= "<form name=\"input\" action=\"signup.php\" method=\"post\">
 <p style=\"padding-top:0px;color:#7b9d3e;font-size: 50px;\">Number of users you require:<br><input type=\"text\" name=\"amount\"><br>
