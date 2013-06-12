@@ -34,7 +34,7 @@
 <div style="float:right;text-align:left;width:480px;">
 <h3>Partner overview of all staff &amp; conveyancing cases</h3>
 <p>Hoowla gives you a easy to understand snap shot view of your businesses. Data about your firm is displayed to allow you to understand what is and isn't working</p>
-<p>No longer do you have to wait for monthly reviews to identify oppetunites for better use of your resources.</p>
+<p>No longer do you have to wait for monthly reviews to identify opportunities for better use of your resources.</p>
 <p>Complete user control allows you to make sure the right people see the right data.</p>
 <p>Accessed from the cloud the data can be viewed on any mobile, laptop or desktop. Data is automatically backed up at no extra cost or hassle to yourself or your business.</p>
 </div>
