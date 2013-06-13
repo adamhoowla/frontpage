@@ -42,7 +42,7 @@ include('header.php'); ?>
 <h4>&pound;45</h4>
 <p style="margin-bottom: 5px;">A month per user</p>
 <p style="margin-top: 0px;">for the first 6 months of use</p>
-<p>FULL MONEY BACK GUARENTEE IF YOU LEAVE AFTER 6 MONTHS</p>
+<p>FULL MONEY BACK GUARANTEE IF YOU LEAVE AFTER 6 MONTHS</p>
 </div>
 <div class="pricebox">
 <div class="priceheading"> 1 to 5 users</div>
