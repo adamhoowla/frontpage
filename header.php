@@ -19,7 +19,7 @@ function CurrentPageURL()
 <ul id="headerMenu">
 <li><a href="index.php" <?php if(strcmp (CurrentPageURL(),"index.php")==0){ echo "class=\"active\"";}?>>HOME</a></li>
 <li><a href="pricing.php" <?php if(strcmp (CurrentPageURL(),"pricing.php")==0){ echo "class=\"active\"";}?>>PRICING</a></li>
-<li><a href="referalscheme.php" <?php if(strcmp (CurrentPageURL(),"referalscheme.php")==0){ echo "class=\"active\"";}?>>REFERAL SCHEME</a></li>
+<li><a href="referalscheme.php" <?php if(strcmp (CurrentPageURL(),"referalscheme.php")==0){ echo "class=\"active\"";}?>>REFERRAL SCHEME</a></li>
 <li><a href="signup.php" <?php if(strcmp (CurrentPageURL(),"signup.php")==0){ echo "class=\"active\"";}?>>SIGNUP</a></li>
 </ul>
 </nav>
