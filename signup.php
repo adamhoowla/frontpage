@@ -14,7 +14,7 @@ if (isset($_POST['amount'])){
 include_once 'lib/GoCardless.php';
 
 // Use the sandbox environment for testing
-GoCardless::$environment = 'live';
+GoCardless::$environment = 'production';
 
 
 // Set config vars
