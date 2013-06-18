@@ -1,35 +1,50 @@
-<div id="footer">
-<div id="contactus">
-<h4>Contact Us</h4>
-<p style="margin-bottom: 0px;">
-220 High Street<br>
-2nd Floor, IndyCube<br>
-Swansea <br>
-SA1 1NW
-</p>
-<p style="margin: 0px;">01792 515667</p>
-<p><a href="#">hello@hoowla.com</a></p>
-</div>
+<!--
+			<section class="testemonial">
+				<div class="grid">
+					<h3>A few words from our Customers.</h3>
+				</div>
+			</section>
+-->
+			<section class="lightgray endorsment">
+				<h2>Endorsed and Powered by</h2>
+				<div class="grid">
+					<div class="grid">
+						<div class="col-25">
+							<img src="images/freshLogo.png" alt="" />
+						</div>
+						<div class="col-25">
+							<img src="images/lynnLogo.png" alt="" />
+						</div>
+						<div class="col-25">
+							<img src="images/freshLogo.png" alt="" />
+						</div>
+						<div class="col-25">
+							<img src="images/lynnLogo.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-<a href="http://www.clockworkbear.com" name="web design swansea" style="border: 0;"><img id="webdesignlogo" src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear"></a>
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-//<![CDATA[
-var sc_project=9018282; 
-var sc_invisible=1; 
-var sc_security="715410ac"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter_xhtml.js'></"+"script>");
-//]]>
-</script>
-<noscript><div class="statcounter"><a title="free hit
-counter" href="http://statcounter.com/"
-class="statcounter"><img class="statcounter"
-src="http://c.statcounter.com/9018282/0/715410ac/1/"
-alt="free hit counter" /></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+		<footer role="contentinfo">
+			<div class="grid">
+				<a href="http://www.clockworkbear.com" class="clockworkbear-logo"><img src="images/clockworkbearLogo.png" alt="web design by Clockwork Bear" /></a>
+				<h4>Contact Us</h4>
+				<p>
+					220 High Street<br />
+					2nd Floor, IndyCube<br />
+					Swansea <br />
+					SA1 1NW<br />
+					01792 515667
+				</p>
+				<p>
+					<a href="">hello@hoowla.com</a>
+				</p>
+			</div>
+		</footer>
 
-</div>
+		<script src="js/libs/jquery-1.10.1.min.js"></script>
+		<script src="js/jhoowla.js"></script>
+
+	</body>
+</html>
