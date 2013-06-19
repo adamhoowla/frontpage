@@ -1,8 +1,8 @@
 <?
 
 
-if (isset($_POST['amount'])) {
-	$amount = 45 * $_POST['amount'];
+if (isset($_GET['amount'])) {
+	$amount = 45 * $_GET['amount'];
 } else {
 	$amount = "45.00";
 }
