@@ -7,7 +7,7 @@
 			<p>Number of users you require:</p>
 			<div class="grid">
 				<div class="col-50">
-					<input type="text" name="amount" placeholder="0" id="amount" />
+					<input type="number" name="amount" placeholder="0" id="amount" />
 				</div>
 				<div class="col-50">
 					&pound;<span id="signup-cost">0</span> per month

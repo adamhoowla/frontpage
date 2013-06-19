@@ -1,14 +1,18 @@
 
 $(document).ready( function() {
 
+	// Run onLoad
 	calculateCost();
 
-	$('#amount').change( function() {
+	// Run onChange
+	// http://stackoverflow.com/questions/1948332/detect-all-changes-to-a-input-type-text-immediately-using-jquery
+	$('#amount').bind('propertychange keyup input paste', function(event) {
 		calculateCost();
 	});
 
+	// Track Sign-ups
 	$('.submit-form').click( function() {
-		_gaq.push(['_trackPageview', '/signupbuttonclick']);
+		ga('send', 'pageview', '/signupbuttonclick');
 	});
 
 });
@@ -20,10 +24,12 @@ function calculateCost() {
 
 	// If it's zero, blank or a space.
 	if ( inputAmount == 0 || inputAmount == '' || inputAmount == ' ' ) {
+		$('#signup-cost').html('0');
 		$('.submit-form').attr('href', '#').addClass('disabled');
 	}
 	// If it's a letter
 	else if (! /^[0-9]+$/.test( inputAmount )) {
+		$('#signup-cost').html('0');
 		$('.submit-form').attr('href', '#').addClass('disabled');
 	}
 	else {
