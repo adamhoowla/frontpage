@@ -3,7 +3,7 @@ $(document).ready( function() {
 
 	calculateCost();
 
-	$('#amount').keyup( function() {
+	$('#amount').change( function() {
 		calculateCost();
 	});
 

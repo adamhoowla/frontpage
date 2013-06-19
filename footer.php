@@ -18,10 +18,10 @@
 				<h2>Endorsed and Powered by</h2>
 				<div class="grid">
 					<div class="grid">
-						<div class="col-25">
+						<div class="col-50">
 							<img src="images/freshLogo.png" alt="" />
 						</div>
-						<div class="col-25">
+						<div class="col-50"><br />
 							<img src="images/lynnLogo.png" alt="" />
 						</div>
 					</div>
