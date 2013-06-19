@@ -24,12 +24,6 @@
 						<div class="col-25">
 							<img src="images/lynnLogo.png" alt="" />
 						</div>
-						<div class="col-25">
-							<img src="images/freshLogo.png" alt="" />
-						</div>
-						<div class="col-25">
-							<img src="images/lynnLogo.png" alt="" />
-						</div>
 					</div>
 				</div>
 			</section>
