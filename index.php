@@ -83,7 +83,7 @@
 					</div>
 				</div>
 			</section>
-
+<!--
 			<section class="green free-trial">
 				<div class="grid">
 					<div class="col-80">
@@ -101,5 +101,5 @@
 					</div>
 				</div>
 			</section>
-
+-->
 <?php include("footer.php"); ?>

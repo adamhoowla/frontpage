@@ -1,4 +1,4 @@
-
+<!--
 			<section class="testemonial">
 				<div class="grid">
 					<h3>A few words from our Customers.</h3>
@@ -13,7 +13,7 @@
 					<p>Fresh Sales, Letting Agents, Swansea</p>
 				</div>
 			</section>
-
+-->
 			<section class="lightgray endorsements">
 				<h2>Endorsed and Powered by</h2>
 				<div class="grid">
