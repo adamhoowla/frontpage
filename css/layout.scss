@@ -1,0 +1,141 @@
+
+/* ==========================================================================
+   	Layout.scss - a Module to Main.scss
+   ========================================================================== */
+
+
+// Page Grid System.
+
+.grid {
+	.col-10,
+	.col-15,
+	.col-20,
+	.col-25,
+	.col-30,
+	.col-33,
+	.col-40,
+	.col-45,
+	.col-50,
+	.col-55,
+	.col-60,
+	.col-65,
+	.col-66,
+	.col-75,
+	.col-80 {
+		padding: .5em 0;
+	}
+}
+
+@media only screen and (min-width: 35em) {
+
+	.grid {
+		@include Clear;
+
+		.col-10,
+		.col-15,
+		.col-20,
+		.col-25,
+		.col-30,
+		.col-33,
+		.col-40,
+		.col-45,
+		.col-50,
+		.col-55,
+		.col-60,
+		.col-65,
+		.col-66,
+		.col-75,
+		.col-80 {
+			@include BoxSizing;
+			float: left;
+			padding: 0;
+		}
+
+
+		.col-10 {
+			width: 10%;
+		}
+
+		.col-15 {
+			width: 15%;
+		}
+
+		.col-20 {
+			width: 20%;
+		}
+
+		.col-25 {
+			width: 25%;
+		}
+
+		.col-30 {
+			width: 30%;
+		}
+
+		.col-33 {
+			width: 33.3333333%;
+			padding: 0 .75em;
+
+			&:first-of-type {
+				padding-left: 0;
+				padding-right: 1.5em;
+			}
+
+			&:last-of-type {
+				padding-left: 1.5em;
+				padding-right: 0;
+			}
+		}
+
+		.col-40 {
+			width: 40%;
+		}
+
+		.col-45 {
+			width: 45%;
+		}
+
+		.col-50 {
+			width: 50%;
+
+			&:nth-of-type(odd) {
+				padding-left: 0;
+				padding-right: 1em;
+			}
+
+			&:nth-of-type(even) {
+				padding-left: 1em;
+				padding-right: 0;
+			}
+		}
+
+		.col-55 {
+			width: 55%;
+		}
+
+		.col-60 {
+			width: 60%;
+
+			&:nth-of-type(odd) {
+				padding-right: 2em;
+			}
+		}
+
+		.col-65 {
+			width: 65%;
+		}
+
+		.col-66 {
+			width: 66.6666666%;
+		}
+
+		.col-75 {
+			width: 75%;
+		}
+
+		.col-80 {
+			width: 80%;
+		}
+	}
+
+}
