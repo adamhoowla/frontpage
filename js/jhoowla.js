@@ -1,39 +1,31 @@
 
 $(document).ready( function() {
 
-	// Start Dev Bar
+	$('#amount').keyup( function() {
 
-	var linesOn = false;
-	var userLogin = true;
-
-	$('#lines-on-button').click( function() {
-		if (linesOn) {
-			$('header *, main *, footer *').removeClass('show-lines');
-			$(this).html('Lines On');
-		} else {
-			$('header *, main *, footer *').addClass('show-lines');
-			$(this).html('Lines Off');
+		// If it's zero, blank or a space.
+		if ( $(this).val() == 0 || $(this).val() == '' || $(this).val() == ' ' ) {
+			$('.submit-form').attr('href', '#').addClass('disabled');
 		}
-		linesOn = !linesOn;
-		return false;
+		// If it's a letter
+		else if (! /^[0-9]+$/.test( $(this).val() )) {
+			$('.submit-form').attr('href', '#').addClass('disabled');
+		}
+		else {
+			// Valid.
+			// Calculate Cost
+			$('#signup-cost').html( $(this).val() * 45 );
+
+			// Get URL
+			$.get('getGoCardless.php?amount='+$(this).val(), function(data) {
+				$('.submit-form').attr('href', data).removeClass('disabled');
+			});
+		}
 	});
 
-	$('#user-login-button').click( function() {
-		if (!userLogin) {
-			$('.user-details').show();
-			$(this).html('User Logged In');
-		} else {
-			$('.user-details').hide();
-			$(this).html('User Logged Out');
-		}
-		userLogin = !userLogin;
-		return false;
-	});
 
-	$('#dev-bar #hide-button').click( function() {
-		$('#dev-bar').hide();
+	$('.submit-form').click( function() {
+		_gaq.push(['_trackPageview', '/signupbuttonclick']);
 	})
-
-	// End Dev Bar
 
 });

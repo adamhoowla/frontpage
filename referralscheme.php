@@ -2,15 +2,15 @@
 			
 			<section class="dark referral house center">
 				<div class="grid">
-					<div class="col-30">
+					<div class="col-33">
 						<p>Sign up a solicitor<br />that has 5 users<br />and earn</p>
 						<strong>£225</strong>
 					</div>
-					<div class="col-40">
+					<div class="col-33">
 						<h1>Referral Scheme</h1>
 						<p>Our competitive offers</p>
 					</div>
-					<div class="col-30">
+					<div class="col-33">
 						<strong>£45</strong>
 						<p>for each user sign up<br />that convert to<br /> be a paying<br />user of Hoowla</p>
 					</div>

@@ -3,7 +3,14 @@
  * 
  * Index:
  *
- *
+ *		1. Import other SASS files.
+ *		2. Global Variables
+ *		3. Global Elements
+ *		4. Header 
+ *		5. Main
+ *		6. Footer
+ *		7. Individual Page
+ *		
  */
 
 
@@ -28,8 +35,9 @@
 $pageWidth: 1050px;
 
 // Default font stack used through-out the site.
-$defaultFont: 'DroidSansRegular', sans-serif;
+$defaultFont: 'DroidSansRegular', "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 
+// Link Colour (Default = Green)
 $linkColour: #7b9d3e;
 
 
@@ -65,9 +73,10 @@ img {
 
 
 /* ==========================================================================
-   	3. Dev. Bar 
+   	NA. Dev. Bar 
    ========================================================================== */
 
+/*
 #dev-bar {
 
 	display: none;
@@ -105,11 +114,11 @@ img {
 .show-lines {
 	border: 1px solid rgba(0, 0, 0, .4);
 }
-
+*/
 
 
 /* ==========================================================================
-   	3. Header 
+   	4. Header 
    ========================================================================== */
 
 header[role="banner"] {
@@ -118,7 +127,6 @@ header[role="banner"] {
 
 	// Variables
 	$headerLinkPaddingX: 1.2em;
-	$headerLinkPaddingY: 0;
 
 	// Includes
 	@include Clear;
@@ -275,31 +283,37 @@ header[role="banner"] {
 
 
 /* ==========================================================================
-   	4. Main 
+   	5. Main 
    ========================================================================== */
 
 main[role="main"] {
 
+	.grid {
+		width: $pageWidth;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
 	section {
 		min-height: 100px;
 
-		// Light Green / Grey Default
+		// Light-Green/Grey Default
 		background-color: #D9E2D0;
 
 		&.dark {
-			background: #222 url(images/bg_gray.png) center top repeat;
+			background: #222 url(images/bgGray.png) center top repeat;
 			color: white;
 		}
 
 		&.house {
 			background: 
-				url(images/bg_house.png) center center no-repeat,
-				url(images/bg_gray.png);
+				url(images/bgHouse.png) center center no-repeat,
+				url(images/bgGray.png);
 			color: white;
 		}
 
 		&.lightgray {
-			background: #222 url(images/bg_lightgray.png) center top repeat;
+			background: #222 url(images/bgLightGray.png) center top repeat;
 			color: white;
 		}
 
@@ -319,229 +333,52 @@ main[role="main"] {
 			font-family: 'DroidSansBold', sans-serif;
 		}
 	}
-
-
-	.grid {
-		width: $pageWidth;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-
-
-	section.banner {
-		text-align: center;
-
-		.grid {
-			@include BoxSizing;
-			padding: 2em 3em;
-		}
-
-		p {
-			margin: 0;
-		}
-	}
-
-
-	section.icon-grid {
-		text-align: center;
-		padding: 2.5em 0;
-
-		.col-25 {
-			// Mobile Only
-			padding: .5em;
-		}
-
-		h3 {
-			color: #7B9D3E;
-			font-size: 1.1em;
-		}
-	}
-
-
-	section.screenshot-grid {
-		padding: 2em 0;
-
-		.grid {
-			@include BoxSizing;
-			padding: 1.5em 0;
-		}
-
-		img {
-			@include BoxSizing;
-			position: relative;
-			border: 15px solid white;
-			box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-		}
-
-		h2 {
-			margin-top: .4em;
-			margin-bottom: .2em;
-		}
-
-		p {
-			margin-bottom: .4em;
-			line-height: 1.3em;
-		}
-
-		.col-45,
-		.col-55 {
-			padding: 0;
-
-			&.odd,
-			&.even {
-				background-color: white;
-				padding: .8em 1.2em;
-			}
-		}
-	}
-
-
-	section.free-trial {
-		padding: 2em .5em;
-
-		h2 {
-			font-family: $defaultFont;
-			font-weight: normal;
-
-			span {
-				color: #86A44D;
-				font-weight: bold;
-			}
-		}
-
-		ul {
-			@include Clear;
-			color: white;
-			margin: 1em 0;
-			padding-left: 1em;
-		}
-
-		li {
-			padding-bottom: .2em;
-			// Mobile
-			width: 100%;
-		}
-
-		.find-out-more-button {
-			@include BoxSizing;
-			display: block;
-			padding: .8em 1.4em;
-			background: -webkit-linear-gradient(top, #b6e455, #93bf38);
-			border: 1px solid darken(#93bf38, 2%);
-			border-radius: 8px;
-			box-shadow: 0 0 6px rgba(0, 0, 0, .2);
-			font-size: 1.8em;
-			font-weight: bold;
-			line-height: 1.3em;
-			color: white;
-			text-align: center;
-			// Mobile
-			width: 100%;
-
-
-			span {
-				display: block;
-				text-transform: uppercase;
-				font-size: 1.4em;
-			}
-
-			&:hover {
-				box-shadow: 0 0 8px rgba(0, 0, 0, .4);
-			}
-		}
-	}
-
-
-	section.testemonial {
-		padding: 2.5em 0;
-
-		.grid {
-			@include BoxSizing;
-			background-color: white;
-			border-radius: 10px;
-			padding: 2em;
-		}
-	}
-
-
-	section.endorsment {
-		padding: 3em 0;
-		text-align: center;
-		box-shadow: inset 0 0 25px rgba(0, 0, 0, .3);
-
-		h2 {
-			text-transform: uppercase;
-			font-size: 1.1em;
-			margin-top: 0;
-			padding-bottom: .8em;
-			margin-bottom: 2.5em;
-			border-bottom: 2px solid rgba(255, 255, 255, .8);
-		}
-	}
-
-	@media only screen and (min-width: 35em) {
-
-		// Screen: Intermediate
-
-		section.icon-grid {
-			.col-25 {
-				padding: 1.2em;
-
-				&:first-child {
-					padding-left: 0;
-				}
-
-				&:last-child {
-					padding-right: 0;
-				}
-			}
-		}
-
-		section.screenshot-grid {
-			.col-45,
-			.col-55 {
-				&.odd,
-				&.even {
-					margin-top: 1em;
-				}
-
-				&.odd {
-					border-top-left-radius: 8px;
-					border-bottom-left-radius: 8px;
-				}
-
-				&.even {
-					border-top-right-radius: 8px;
-					border-bottom-right-radius: 8px;
-				}
-			}
-		}
-
-		section.free-trial {
-			li {
-				width: 50%;
-				float: left;
-			}
-
-			.find-out-more-button {
-				float: right;
-				width: auto;
-				margin-top: 1.4em;
-			}
-		}
-	}
 }
 
 
 /* ==========================================================================
-   	5. Footer 
+   	6. Footer 
    ========================================================================== */
 
+
+// Testimonals
+
+section.testemonial {
+	padding: 2.5em 0;
+
+	.grid {
+		@include BoxSizing;
+		background-color: white;
+		border-radius: 10px;
+		padding: 2em;
+	}
+}
+
+
+// Endorsements
+
+section.endorsements {
+	padding: 3em 0;
+	text-align: center;
+	box-shadow: inset 0 0 25px rgba(0, 0, 0, .3);
+
+	h2 {
+		text-transform: uppercase;
+		font-size: 1.1em;
+		margin-top: 0;
+		padding-bottom: .8em;
+		margin-bottom: 2.5em;
+		border-bottom: 2px solid rgba(255, 255, 255, .8);
+	}
+}
+
+
+// Footer
+
 footer[role="contentinfo"] {
-	padding: 2em 0;
+	padding: 2em 1em;
 	min-height: 100px;
-	background: #333;
-	background: #222 url(images/bg_gray.png) center top repeat;
+	background: #222 url(images/bgGray.png) center top repeat;
 	color: white;
 
 	ul {
@@ -553,14 +390,14 @@ footer[role="contentinfo"] {
 		color: white;
 	}
 
+	h4 {
+		margin-top: 0;
+	}
+
 	.grid {
 		width: $pageWidth;
 		max-width: 100%;
 		margin: 0 auto;
-	}
-
-	h4 {
-		margin-top: 0;
 	}
 
 	.clockworkbear-logo {
@@ -573,9 +410,148 @@ footer[role="contentinfo"] {
 
 
 /* ==========================================================================
-   	6. Individual Page 
+   	7. Individual Page 
    ========================================================================== */
 
+/* ======================================================
+   	7.1 Home Page 
+   ====================================================== */
+
+section.banner {
+	text-align: center;
+
+	.grid {
+		@include BoxSizing;
+		padding: 2em 1em;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+
+// Icon Grid
+
+section.icon-grid {
+	text-align: center;
+	padding: 2.5em 0;
+
+	.col-25 {
+		// Mobile Only
+		padding: .5em;
+	}
+
+	h3 {
+		color: #7B9D3E;
+		font-size: 1.1em;
+	}
+}
+
+
+// Screenshots
+
+section.screenshot-grid {
+	padding: 2em 0;
+
+	.grid {
+		@include BoxSizing;
+		padding: 1.5em 0;
+	}
+
+	img {
+		@include BoxSizing;
+		position: relative;
+		border: 15px solid white;
+		box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	}
+
+	h2 {
+		margin-top: .4em;
+		margin-bottom: .2em;
+	}
+
+	p {
+		margin-bottom: .4em;
+		line-height: 1.3em;
+	}
+
+	.col-45,
+	.col-55 {
+		padding: 0;
+
+		&.odd,
+		&.even {
+			background-color: white;
+			padding: .8em 1.2em;
+		}
+	}
+}
+
+
+// Free Trial
+
+section.free-trial {
+	padding: 2em .5em;
+
+	h2 {
+		font-family: $defaultFont;
+		font-weight: normal;
+
+		span {
+			color: #86A44D;
+			font-weight: bold;
+		}
+	}
+
+	ul {
+		@include Clear;
+		color: white;
+		margin: 1em 0;
+		padding-left: 1em;
+	}
+
+	li {
+		padding-bottom: .2em;
+		// Mobile
+		width: 100%;
+	}
+
+	.find-out-more-button {
+		@include BoxSizing;
+		display: block;
+		padding: .8em 1.4em;
+		background: -webkit-linear-gradient(top, #b6e455, #93bf38);
+		background: -moz-linear-gradient(top, #b6e455, #93bf38);
+		background: linear-gradient(top, #b6e455, #93bf38);
+		border: 1px solid darken(#93bf38, 2%);
+		border-radius: 8px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+		font-size: 1.8em;
+		font-weight: bold;
+		line-height: 1.3em;
+		color: white;
+		text-align: center;
+		// Mobile
+		width: 100%;
+
+
+		span {
+			display: block;
+			text-transform: uppercase;
+			font-size: 1.4em;
+		}
+
+		&:hover {
+			box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+		}
+	}
+}
+
+
+/* ======================================================
+   	7.1 Pricing
+   ====================================================== */
 
 section.pricing-banner {
 	padding: 3.5em 0;
@@ -595,16 +571,18 @@ section.plan-includes {
 
 	ul {
 		@include Clear;
-		font-size: 1.4em;
 		font-weight: bold;
 	}
 
 	li { 
-		width: 50%;
-		float: left;
+		width: 100%;
 	}
 
 	@media only screen and (min-width: 35em) {
+		ul {
+			font-size: 1.4em;
+		}
+
 		li {
 			width: 50%;
 			float: left;
@@ -634,6 +612,9 @@ section.plan-includes {
 	}
 }
 
+
+// Pricing Grid
+
 section.pricing-grid {
 	padding: 2em 0;
 	text-align: center;
@@ -642,7 +623,7 @@ section.pricing-grid {
 	box-shadow: inset 0 0 20px rgba(0, 0, 0, .2);
 
 	.col-25 {
-		width: 23%;
+		width: 100%;
 		background-color: white;
 		margin-right: 2.666%;
 		padding-bottom: .4em;
@@ -708,10 +689,22 @@ section.pricing-grid {
 			color: #999;
 		}
 	}
+
+	@media only screen and (min-width: 35em) {
+		.col-25 {
+			width: 23%;
+		}
+	}
 }
 
+
+
+/* ======================================================
+   	7.3 Referral Scheme
+   ====================================================== */
+
 section.referral {
-	padding: 4em 0;
+	padding: 1em 0;
 
 	h1 {
 		font-family: 'DroidSansBold', sans-serif;
@@ -733,19 +726,147 @@ section.referral {
 		line-height: 1em;
 	}
 
-	.col-30,
-	.col-40 {
+	.col-33 {
 		&:first-child,
 		&:last-child {
 			text-transform: uppercase;
+			background-repeat: no-repeat;
 		}
 
 		&:first-child {
-			text-align: right;
+			background-position: top right;
 		}
 
 		&:last-child {
-			text-align: left;
+			background-position: top left;
+		}
+	}
+
+
+	@media only screen and (min-width: 35em) {
+
+	// Screen: Intermediate
+
+		.col-33 {
+			padding: 4em 0;
+
+			&:first-child,
+			&:last-child {
+				background-image: url(images/lightGradient.png);
+				height: 325px;
+				padding-left: 2em;
+				padding-right: 2em;
+			}
+
+			&:first-child {
+				text-align: right;
+			}
+
+			&:last-child {
+				text-align: left;
+			}
 		}
 	}
 }
+
+
+
+
+form.signup {
+	padding: .6em 0;
+	font-size: 2.5em;
+	color: #7b9d3e;
+
+	p {
+		//font-size: .6em;
+		small {
+			font-size: .45em;
+		}
+	}
+
+	input {
+		@include BoxSizing;
+		width: 100%;
+		padding: .4em .6em;
+	}
+
+	#signup-cost {
+		line-height: 2em;
+	}
+
+	.submit-form {
+		@include BoxSizing;
+		display: inline-block;
+		padding: .8em 1.4em;
+		background: -webkit-linear-gradient(top, #b6e455, #93bf38);
+		background: -moz-linear-gradient(top, #b6e455, #93bf38);
+		background: linear-gradient(top, #b6e455, #93bf38);
+		border: 1px solid darken(#93bf38, 2%);
+		border-radius: 8px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+		font-size: .6em;
+		font-weight: bold;
+		line-height: 1.3em;
+		margin-top: .9em;
+		color: white;
+		text-align: center;
+
+		&.disabled {
+			opacity: .7;
+			cursor: default;
+		}
+	}
+}
+
+
+	@media only screen and (min-width: 35em) {
+
+		// Screen: Intermediate
+
+		section.icon-grid {
+			.col-25 {
+				padding: 1.2em;
+
+				&:first-child {
+					padding-left: 0;
+				}
+
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+
+		section.screenshot-grid {
+			.col-45,
+			.col-55 {
+				&.odd,
+				&.even {
+					margin-top: 1em;
+				}
+
+				&.odd {
+					border-top-left-radius: 8px;
+					border-bottom-left-radius: 8px;
+				}
+
+				&.even {
+					border-top-right-radius: 8px;
+					border-bottom-right-radius: 8px;
+				}
+			}
+		}
+
+		section.free-trial {
+			li {
+				width: 50%;
+				float: left;
+			}
+
+			.find-out-more-button {
+				float: right;
+				width: auto;
+				margin-top: 1.4em;
+			}
+		}
+	}
