@@ -1,10 +1,19 @@
-<!--
+
 			<section class="testemonial">
 				<div class="grid">
 					<h3>A few words from our Customers.</h3>
+					<p>"Hoowla has been invaluble in improving our customer interface."</p>
+					<div class="stars">
+						<img src="images/star.png" alt="" />
+						<img src="images/star.png" alt="" />
+						<img src="images/star.png" alt="" />
+						<img src="images/star.png" alt="" />
+						<img src="images/star.png" alt="" />
+					</div>
+					<p>Fresh Sales, Letting Agents, Swansea</p>
 				</div>
 			</section>
--->
+
 			<section class="lightgray endorsements">
 				<h2>Endorsed and Powered by</h2>
 				<div class="grid">
