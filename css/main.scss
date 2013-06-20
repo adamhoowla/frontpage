@@ -602,7 +602,7 @@ section.plan-includes {
 
 	@media only screen and (min-width: 35em) {
 		ul {
-			font-size: 1.4em;
+			font-size: 1.2em;
 		}
 
 		li {
@@ -614,13 +614,13 @@ section.plan-includes {
 
 
 section.plan-includes {
-	padding: 1em 0;
+	padding: 1em;
 	color: #999;
 	font-size: 1.1em;
 
 	h2 {
 		text-transform: uppercase;
-		padding: .5em 0;
+		//padding: .5em 0;
 		font-weight: bold;
 		//
 		text-align: center;
@@ -749,7 +749,7 @@ section.referral {
 
 	strong {
 		display: inline-block;
-		font-size: 8em;
+		font-size: 6.5em;
 		color: #92BE37;
 		font-family: 'DroidSansBold', sans-serif;
 		font-weight: normal;
@@ -792,6 +792,13 @@ section.referral {
 			&:last-child {
 				text-align: left;
 			}
+		}
+	}
+
+
+	@media only screen and (min-width: 70em) {
+		strong {
+			font-size: 8em;
 		}
 	}
 }
