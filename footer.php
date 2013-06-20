@@ -19,10 +19,10 @@
 				<div class="grid">
 					<div class="grid">
 						<div class="col-50">
-							<img src="images/freshLogo.png" alt="" />
+							<a href="http://www.freshsales.co.uk/"><img src="images/freshLogo.png" alt="Fresh Estate Agent" /></a>
 						</div>
 						<div class="col-50"><br />
-							<img src="images/lynnLogo.png" alt="" />
+							<a href="http://www.peterlynnandpartners.co.uk/"><img src="images/lynnLogo.png" alt="Peter Lynn and Partners" /></a>
 						</div>
 					</div>
 				</div>
