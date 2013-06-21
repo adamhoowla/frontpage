@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<a href="#" class="submit-form disabled">Pay securely via GoCardless</a>
-			<p><small>No payment will be taken until August the 31st and we offer a 100% money back guarantee for the first 6 months.</small></p>
+			<p><small>No payment will be taken until 31st August and we offer a 100% money back guarantee for the first 6 months.</small></p>
 		</form>
 	</div>
 </section>

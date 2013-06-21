@@ -12,7 +12,7 @@
 					</div>
 					<div class="col-33">
 						<strong>£45</strong>
-						<p>for each user sign up<br />that convert to<br /> be a paying<br />user of Hoowla</p>
+						<p>for each user sign up<br />that converts to<br /> a paying<br />user of Hoowla</p>
 					</div>
 				</div>
 			</section>
@@ -58,7 +58,7 @@
 					<div class="col-25">
 						<img src="images/computericon.png" alt="" />
 						<h3>No Setup Fee</h3>
-						<p>We won’t charge you for the set up, and our software is simple and easy to use.</p>
+						<p>We won’t charge you for the set up, our software is simple and easy to use.</p>
 					</div>
 				</div>
 
