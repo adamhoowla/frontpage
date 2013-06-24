@@ -18,11 +18,14 @@
 				<h2>Endorsed and Powered by</h2>
 				<div class="grid">
 					<div class="grid">
-						<div class="col-50">
+						<div class="col-33">
 							<a href="http://www.freshsales.co.uk/"><img src="images/freshLogo.png" alt="Fresh Estate Agent" /></a>
 						</div>
-						<div class="col-50"><br />
+						<div class="col-33"><br />
 							<a href="http://www.peterlynnandpartners.co.uk/"><img src="images/lynnLogo.png" alt="Peter Lynn and Partners" /></a>
+						</div>
+						<div class="col-33"><br />
+							<a href="http://www.ritsonlaw.co.uk/"><img src="images/ritsonlaw.png" alt="Ritson Law" /></a>
 						</div>
 					</div>
 				</div>
