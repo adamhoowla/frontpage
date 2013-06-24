@@ -394,6 +394,7 @@ footer[role="contentinfo"] {
 		border-radius: 999px;
 		font-size: 4em;
 		text-align: center;
+		margin-bottom: 10px;
 
 		&:hover {
 			opacity: .9;
@@ -445,7 +446,7 @@ section.banner {
 
 // Icon Grid
 
-section.icon-grid {
+section.info-grid {
 	text-align: center;
 	padding: 2.5em 0;
 

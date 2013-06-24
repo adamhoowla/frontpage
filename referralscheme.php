@@ -37,15 +37,15 @@
 <div id="mc_embed_signup">
 <form action="http://hoowla.us7.list-manage.com/subscribe/post?u=b23342bbf8316f324e616dbb8&amp;id=ca4cada147" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-NAME">Name  <span class="asterisk">*</span>
-</label>
+	<label for="mce-NAME">Name  <span class="asterisk">*</span></label>
 	<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+</div>
+
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group size1of2">
 	<label for="mce-PHONE">Phone </label>
@@ -83,7 +83,7 @@
 			</section>
 
 			
-			<section class="light icon-grid">
+			<section class="light info-grid">
 
 				<div class="grid">
 					<!-- TODO Many Alts! -->
