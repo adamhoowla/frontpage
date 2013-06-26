@@ -380,6 +380,12 @@ section.endorsements {
 		margin-bottom: 2.5em;
 		border-bottom: 2px solid rgba(255, 255, 255, .8);
 	}
+
+	a {
+		&:hover {
+			opacity: .9;
+		}
+	}
 }
 
 
@@ -425,14 +431,14 @@ footer[role="contentinfo"] {
 	.icon-twitter {
 		@include BoxSizing;
 		display: inline-block;
-		width: 90px;
-		height: 90px;
-		padding: .2em;
+		width: 55px;
+		height: 55px;
+		padding: .3em;
 		background: #00aced;
 		border-radius: 999px;
-		font-size: 4em;
+		font-size: 2.2em;
 		text-align: center;
-		margin-bottom: 10px;
+		//margin-bottom: 10px;
 
 		&:hover {
 			opacity: .9;

@@ -21,10 +21,10 @@
 						<div class="col-33">
 							<a href="http://www.freshsales.co.uk/"><img src="images/freshLogo.png" alt="Fresh Estate Agent" /></a>
 						</div>
-						<div class="col-33"><br />
+						<div class="col-33">
 							<a href="http://www.peterlynnandpartners.co.uk/"><img src="images/lynnLogo.png" alt="Peter Lynn and Partners" /></a>
 						</div>
-						<div class="col-33"><br />
+						<div class="col-33">
 							<a href="http://www.ritsonlaw.co.uk/"><img src="images/ritsonlaw.png" alt="Ritson Law" /></a>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 				<div class="col-25">
 					<h2>Contact:</h2>
 					<p>
-						T: 01792 515667<br />
+						T: 01792 687 146<br />
 						E: <a href="mailto:hello@hoowla.com">hello@hoowla.com</a>
 					</p>
 				</div>
