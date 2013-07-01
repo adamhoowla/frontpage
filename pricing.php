@@ -32,10 +32,10 @@
 				<div class="grid">
 					<div class="col-25">
 						<div class="box-head">
-							The Beta price is a<br /><strong>one time offer</strong> of
+							Be part of the Beta test
 						</div>
-						<span class="price">£45</span>
-						<p class="sub-price">Per User</p>
+						<span class="price">FREE</span>
+						<p class="sub-price">for 6 months</p>
 						If you sign up before<br />
 						<strong>31st August</strong>
 					</div>
@@ -43,7 +43,7 @@
 						<div class="box-head">
 							Single branch solicitor
 						</div>
-						<span>£150</span>
+						<span>£39</span>
 						<p>Per User</p>
 						<ul>
 							<li><i>Up to 5 conveyancing users</i></li>
@@ -53,7 +53,7 @@
 						<div class="box-head">
 							Multiple branch solicitor
 						</div>
-						<span>£115</span>
+						<span>£25</span>
 						<p>Per User</p>
 						<ul>
 							<li><i>For 5 to 10 conveyancing users</i></li>
