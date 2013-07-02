@@ -35,7 +35,7 @@ function calculateCost() {
 	else {
 		// Valid.
 		// Calculate Cost
-		$('#signup-cost').html( inputAmount * 45 );
+		$('#signup-cost').html( inputAmount * 39 );
 
 		// Get URL
 		$.get('getGoCardless.php?amount='+inputAmount, function(data) {

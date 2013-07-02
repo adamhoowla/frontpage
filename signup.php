@@ -7,7 +7,7 @@
 			<p>Number of users you require:</p>
 			<form name="input" action="signup.php" method="post">
 				<input type="number" name="amount" placeholder="0" id="amount" min="0" />
-				<a href="javascript:void(0);" class="hoowla-form-button submit-form disabled">Pay securely via GoCardless</a>
+				<a href="javascript:void(0);" class="hoowla-form-button submit-form disabled">Pay securely</a>
 			</form>
 		</div>
 

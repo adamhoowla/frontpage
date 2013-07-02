@@ -53,7 +53,7 @@
 						<div class="box-head">
 							Multiple branch solicitor
 						</div>
-						<span>£25</span>
+						<span>£32</span>
 						<p>Per User</p>
 						<ul>
 							<li><i>For 5 to 10 conveyancing users</i></li>

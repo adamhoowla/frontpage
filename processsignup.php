@@ -19,7 +19,7 @@ GoCardless::set_account_details($account_details);
 
 // The parameters for the payment
 $subscription_details = array(
-  'amount'           => '45.00',
+  'amount'           => '39.00',
   'interval_length'  => 6,
   'interval_unit'    => 'month'
 );
