@@ -2,9 +2,9 @@
 
 
 if (isset($_GET['amount'])) {
-	$amount = 45 * $_GET['amount'];
+	$amount = 39 * $_GET['amount'];
 } else {
-	$amount = "45.00";
+	$amount = "39.00";
 }
 
 
