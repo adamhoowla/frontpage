@@ -312,10 +312,10 @@ main[role="main"] {
 
 		&.lines {
 			@media only screen and (min-width: 35em) {
-				.col-20,
-				.col-25,
-				.col-33,
-				.col-50 {
+				& > .grid > .col-20,
+				& > .grid > .col-25,
+				& > .grid > .col-33,
+				& > .grid > .col-50 {
 					background: url(images/lightGradient.png) center right no-repeat;
 
 					&:last-child {
@@ -912,21 +912,23 @@ section.referral {
 		color: $linkColour;
 	}
 
-	input {
+	input#amount {
 		@include BoxSizing;
 		width: 100%;
 		padding: .4em .6em;
 		font-size: 1.5em;
+		margin-top: 12px;
 	}
 
-	#signup-cost {
-		line-height: 2em;
+	.mc-field-group {
+		padding: 0 0 .8em 0;
 	}
 
 	.price-per-month {
 		color: $linkColour;
 		margin: 0;
-		font-size: 4em;
+		padding: 0;
+		font-size: 3em;
 	}
 
 	small {
@@ -937,10 +939,16 @@ section.referral {
 
 		// TODO Clean-up !Important
 		.col-50 {
-			padding: 2em 4em 3em 4em !important;
+			padding: 1em 2em !important;
 		}
 
-		.submit-form {
+		.price-per-month {
+			margin: 0 0 0 20px;
+			font-size: 4em;
+		}
+
+		.submit-form,
+		input[type="submit"] {
 			width: auto;
 		}
 	}

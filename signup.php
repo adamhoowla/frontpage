@@ -3,16 +3,52 @@
 <section class="dark house signup lines">
 	<div class="grid">
 		<div class="col-50">
-			<h1>Sign Up Now</h1>
-			<p>Number of users you require:</p>
-			<form name="input" action="signup.php" method="post">
-				<input type="number" name="amount" placeholder="0" id="amount" min="0" />
-				<a href="javascript:void(0);" class="hoowla-form-button submit-form disabled">Pay securely</a>
-			</form>
+			<h1>Sign Up for our 6 month free trail in September</h1>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+	<form action="http://hoowla.us7.list-manage.com/subscribe/post?u=b23342bbf8316f324e616dbb8&amp;id=1d8d090ca2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div class="mc-field-group">
+			<label for="mce-NAME">Name  <span class="asterisk">*</span></label>
+			<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+		</div>
+		<div class="mc-field-group">
+			<label for="mce-EMAIL">Email  <span class="asterisk">*</span></label>
+			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+		</div>
+		<div class="mc-field-group size1of2">
+			<label for="mce-PHONE">Phone </label>
+			<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+		</div>
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>
+		<div class="clear"><input type="submit" value="Join Hoowla" name="subscribe" id="mc-embedded-subscribe" class="button hoowla-form-button"></div>
+	</form>
+</div>
+<!--End mc_embed_signup-->
+
 		</div>
 
 		<div class="col-50">
-			<p class="price-per-month"><strong>&pound;<span id="signup-cost">0</span></strong> <small>per month</small></p>
+
+			<h1>Price Plan</h1>
+
+			<p>Number of users you require:</p>
+
+			<form name="input" action="signup.php" method="post">
+				<div class="grid">
+					<div class="col-25">
+						<input type="number" name="amount" placeholder="0" id="amount" min="0" />
+					</div>
+					<div class="col-75">
+						<p class="price-per-month"><strong>&pound;<span id="signup-cost">0</span></strong> <small>per month</small></p>
+					</div>
+				</div>
+				<a href="javascript:void(0);" class="hoowla-form-button submit-form disabled">Pay Securely</a>
+			</form>
+
 			<p>No payment will be taken until 31st August and we offer a 100% money back guarantee for the first 6 months.</p>
 		</div>
 	</div>
