@@ -18,14 +18,17 @@
 				<h2>Endorsed and Powered by</h2>
 				<div class="grid">
 					<div class="grid">
-						<div class="col-33">
+						<div class="col-25">
 							<a href="http://www.freshsales.co.uk/"><img src="images/freshLogo.png" alt="Fresh Estate Agent" /></a>
 						</div>
-						<div class="col-33">
+						<div class="col-25">
 							<a href="http://www.peterlynnandpartners.co.uk/"><img src="images/lynnLogo.png" alt="Peter Lynn and Partners" /></a>
 						</div>
-						<div class="col-33">
+						<div class="col-25">
 							<a href="http://www.ritsonlaw.co.uk/"><img src="images/ritsonlaw.png" alt="Ritson Law" /></a>
+						</div>
+						<div class="col-25">
+							<a href="http://www.saracenssolicitors.co.uk/private-clients/residential-conveyancing"><img src="images/logo-saracens.png" alt="Ritson Law" /></a>
 						</div>
 					</div>
 				</div>
