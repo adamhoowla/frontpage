@@ -40,6 +40,28 @@
 
 				<div class="grid">
 					<div class="col-45">
+						<img src="images/dashboardExample1.jpg" alt="" />
+					</div>
+					<div class="col-55 even">
+						<h2>Replace your existing case managment software</h2>
+						<p>Hoowla allows you to manage the complete conveyancing process removing your need for old PC based software.</p>
+						<p>All data is backed up and secure in the UK. Assign people tasks and generate search requests and contracts at the touch of a button.</p>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="col-55 odd">
+						<h2>Get instant statistics about your firms performance</h2>
+						<p>With multiple solicitors working in a number of branches it can be hard to keep on top of who is performing.</p>
+						<p>Hoolwa allows you to monitor statistics per solicitor in real time and allow clients and estate agents to leave feedback for you to read.</p>
+					</div>
+					<div class="col-45">
+						<img src="images/dashboardExample2.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="col-45">
 						<img src="images/socOverview1.jpg" alt="" />
 					</div>
 					<div class="col-55 even">
