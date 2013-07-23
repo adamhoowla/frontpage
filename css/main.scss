@@ -314,6 +314,7 @@ main[role="main"] {
 			@media only screen and (min-width: 35em) {
 				& > .grid > .col-20,
 				& > .grid > .col-25,
+				& > .grid > .col-26,
 				& > .grid > .col-33,
 				& > .grid > .col-50 {
 					background: url(images/lightGradient.png) center right no-repeat;
@@ -459,6 +460,19 @@ footer[role="contentinfo"] {
 			}
 		}
 	}
+		@media only screen and (min-width: 35em) {
+		text-align: left;
+
+		.col-26 {
+			background: url(images/lightGradientMini.png) top right no-repeat;
+			padding-left: 2.5em;
+			min-height: 240px;
+
+			&:last-child {
+				background: none;
+			}
+		}
+	}
 
 }
 
@@ -498,6 +512,10 @@ section.info-grid {
 		// Mobile Only
 		padding: .5em;
 	}
+	.col-26 {
+		// Mobile Only
+		padding: .5em;
+	}
 
 	h3 {
 		color: #7B9D3E;
@@ -506,6 +524,19 @@ section.info-grid {
 
 	@media only screen and (min-width: 35em) {
 		.col-25 {
+			padding: 1.2em;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	@media only screen and (min-width: 35em) {
+		.col-26 {
 			padding: 1.2em;
 
 			&:first-child {
@@ -767,6 +798,36 @@ section.pricing-grid {
 		}
 	}
 
+	.col-26 {
+		width: 100%;
+		background-color: white;
+		margin-right: 2.666%;
+		padding-bottom: .4em;
+
+		&:first-child {
+			background-color: #92BE37;
+			color: white;
+
+			span {
+				color: white;
+				margin-top: -18px;
+			}
+
+			p {
+				margin-top: -20px;
+			}
+
+			& > strong {
+				font-size: 2em;
+			}
+		}
+
+		&:last-child {
+			margin-right: 0;
+			padding-bottom: .2em;
+		}
+	}
+
 	.box-head {
 		background-color: #92BE37;
 		color: white;
@@ -807,6 +868,11 @@ section.pricing-grid {
 
 	@media only screen and (min-width: 35em) {
 		.col-25 {
+			width: 23%;
+		}
+	}
+	@media only screen and (min-width: 35em) {
+		.col-26 {
 			width: 23%;
 		}
 	}
