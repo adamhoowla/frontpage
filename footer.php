@@ -19,7 +19,7 @@
 				<div class="grid">
 					<div class="grid">
 						<div class="col-25">
-							<a href="http://www.freshsales.co.uk/"><img src="images/freshLogo.png" alt="Fresh Estate Agent" /></a>
+							<a href="http://www.templeheelis.co.uk/"><img src="images/templeLogo.png" alt="Temple Heelis" /></a>
 						</div>
 						<div class="col-25">
 							<a href="http://www.peterlynnandpartners.co.uk/"><img src="images/lynnLogo.png" alt="Peter Lynn and Partners" /></a>
