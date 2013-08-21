@@ -37,7 +37,7 @@
 						<span class="price">FREE</span>
 						<p class="sub-price">for 6 months</p>
 						If you sign up before<br />
-						<strong>31st August</strong>
+						<strong style="padding-bottom: 20px; display: block;">31st August</strong>
 					</div>
 					<div class="col-25">
 						<div class="box-head">
