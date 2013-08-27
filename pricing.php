@@ -43,29 +43,31 @@
 						<div class="box-head">
 							Single branch solicitor
 						</div>
-						<span>£39</span>
-						<p>Per User</p>
+						<span>£30</span>
+						<p>Per Completed Case</p>
 						<ul>
-							<li><i>Up to 5 conveyancing users</i></li>
+							<li><i>Up to 10 conveyancing cases a month</i></li>
 						</ul>
 					</div>
 					<div class="col-25">
 						<div class="box-head">
 							Multiple branch solicitor
 						</div>
-						<span>£32</span>
-						<p>Per User</p>
+						<span>£25</span>
+						<p>Per Completed Case</p>
 						<ul>
-							<li><i>For 5 to 10 conveyancing users</i></li>
+							<li><i>For 11 to 50 conveyancing cases a month</i></li>
 						</ul>
 					</div>
 					<div class="col-25">
 						<div class="box-head">
 							Corporation
 						</div>
-						<span>10+</span>
-						<p>Conveyancing users</p>
-						<p><small>Call:</small><br /><strong>01792 515667</strong></p>
+						<span>£20</span>
+						<p>Per Completed Case</p>
+						<ul>
+							<li><i>for 50+ conveyancing cases a month</i></li>
+						</ul>
 					</div>
 				</div>
 			</section>
