@@ -56,7 +56,7 @@
 						<span>£25</span>
 						<p>Per Completed Case</p>
 						<ul>
-							<li><i>For 11 to 50 conveyancing cases a month</i></li>
+							<li><i>For 11 to 50 conveyancing cases</i></li>
 						</ul>
 					</div>
 					<div class="col-25">
